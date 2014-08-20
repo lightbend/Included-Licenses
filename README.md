@@ -1,380 +1,197 @@
-Typesafe software uses third-party libraries or other resources that may be distributed under licenses different than the Typesafe Commercial License.
+Typesafe software uses third-party libraries or other resources 
+that may be distributed under licenses different than the Typesafe
+Commercial License.
 
-In the event of accidental omission, please bring it to our attention by sending email to Hywel Evans at the following address: hywel.evans@typesafe.com
+In the event of accidental omission, please bring it to our
+attention by sending email to Hywel Evans at the following
+address: hywel@typesafe.com
 
-The attached notices are provided for information only.
+ The attached notices are provided for information only. 
+ 
+ Revision 1.7, generated on August 20, 2014.
 
-| Category| License| Depenency| Notes| 
-| :-------| :------| :--------| :----| 
-| Apache | Apache | net.sandrogrzicic # scalabuff-runtime_2.10#1.2.0 | &nbsp; |  
-| Apache | Apache | com.github.nscala-time # nscala-time_2.10#0.2.0 | &nbsp; | 
-| Apache | Apache 2 | org.fusesource.jansi1.4 | &nbsp; | 
-| Apache | Apache 2 | com.googlecode.java-diff-utils diffutils 1.3.0 | &nbsp; | 
-| Apache | Apache 2 | joda-time # joda-time#2.2 | &nbsp; | 
-| Apache | Apache 2 | org.fluentlenium # fluentlenium-core#0.8.0 | &nbsp; | 
-| Apache | Apache 2 | org.fluentlenium # fluentlenium-festassert#0.8.0 | &nbsp; | 
-| Apache | Apache 2 | org.joda # joda-convert#1.3.1 | &nbsp; | 
-| Apache | Apache 2 | org.parboiled # parboiled-core#1.1.5 | &nbsp; | 
-| Apache | Apache 2 | org.parboiled # parboiled-java#1.1.5 | &nbsp; | 
-| Apache | Apache 2 | org.pegdown # pegdown#1.4.0 | &nbsp; | 
-| Apache | Apache 2 | io.spray # spray-can#1.1-M8 | &nbsp; | 
-| Apache | Apache 2 | io.spray # spray-http#1.1-M8 | &nbsp; | 
-| Apache | Apache 2 | io.spray # spray-io#1.1-M8 | &nbsp; | 
-| Apache | Apache 2 | io.spray # spray-util#1.1-M8 | &nbsp; | 
-| Apache | Apache 2 | joda-time # joda-time#2.1 | &nbsp; | 
-| Apache | Apache 2 | joda-time # joda-time#2.2 | &nbsp; | 
-| Apache | Apache 2 | org.fluentlenium # fluentlenium-core#0.7.3 | &nbsp; | 
-| Apache | Apache 2 | org.fluentlenium # fluentlenium-core#0.8.0 | &nbsp; | 
-| Apache | Apache 2 | org.fluentlenium # fluentlenium-festassert#0.7.3 | &nbsp; | 
-| Apache | Apache 2 | org.fluentlenium # fluentlenium-festassert#0.8.0 | &nbsp; | 
-| Apache | Apache 2 | org.joda # joda-convert#1.2 | &nbsp; | 
-| Apache | Apache 2 | org.joda # joda-convert#1.3.1 | &nbsp; | 
-| Apache | Apache 2 | org.mongodb # casbah-commons_2.10#2.6.2 | &nbsp; | 
-| Apache | Apache 2 | org.mongodb # casbah-core_2.10#2.6.2 | &nbsp; | 
-| Apache | Apache 2 | org.mongodb # casbah-query_2.10#2.6.2 | &nbsp; | 
-| Apache | Apache 2 | org.parboiled # parboiled-core#1.1.5 | &nbsp; | 
-| Apache | Apache 2 | org.parboiled # parboiled-scala_2.10#1.1.5 | &nbsp; | 
-| Apache | Apache 2.0 | cglib # cglib-nodep#2.1_3 | &nbsp; | 
-| Apache | Apache 2.0 | com.novus # salat-core_2.10#1.9.2 | &nbsp; | 
-| Apache | Apache 2.0 | com.novus # salat-util_2.10#1.9.2 | &nbsp; | 
-| Apache | Apache License | cglib # cglib-nodep#2.1_3 | &nbsp; | 
-| Apache | Apache License | org.apache.httpcomponents # httpclient#4.0.1 | &nbsp; | 
-| Apache | Apache License | org.apache.httpcomponents # httpcore#4.0.1 | &nbsp; | 
-| Apache | Apache License | org.apache.httpcomponents # httpclient#4.0.1 | &nbsp; | 
-| Apache | Apache License | org.apache.httpcomponents # httpcore#4.0.1 | &nbsp; | 
-| Apache | Apache License | org.json4s # json4s-ast_2.10#3.1.0 | &nbsp; | 
-| Apache | Apache License | org.json4s # json4s-core_2.10#3.1.0 | &nbsp; | 
-| Apache | Apache License | org.json4s # json4s-native_2.10#3.1.0 | &nbsp; | 
-| Apache | Apache License 2.0 | com.fasterxml.jackson.core # jackson-annotations#2.2.2 | &nbsp; | 
-| Apache | Apache License 2.0 | com.fasterxml.jackson.core # jackson-core#2.2.2 | &nbsp; | 
-| Apache | Apache License 2.0 | com.fasterxml.jackson.core # jackson-databind#2.2.2 | &nbsp; | 
-| Apache | Apache License 2.0 | com.google.guava # guava#14.0.1 | &nbsp; | 
-| Apache | Apache License 2.0 | com.google.inject # guice#3.0 | &nbsp; | 
-| Apache | Apache License 2.0 | commons-codec # commons-codec#1.6 | &nbsp; | 
-| Apache | Apache License 2.0 | commons-collections # commons-collections#3.2.1 | &nbsp; | 
-| Apache | Apache License 2.0 | commons-io # commons-io#2.0.1 | &nbsp; | 
-| Apache | Apache License 2.0 | commons-io # commons-io#2.2 | &nbsp; | 
-| Apache | Apache License 2.0 | commons-io # commons-io#2.4 | &nbsp; | 
-| Apache | Apache License 2.0 | commons-logging # commons-logging#1.1.1 | &nbsp; | 
-| Apache | Apache License 2.0 | jakarta-regexp # jakarta-regexp#1.4 | &nbsp; | 
-| Apache | Apache License 2.0 | oauth.signpost # signpost-commonshttp4#1.2.1.2 | &nbsp; | 
-| Apache | Apache License 2.0 | oauth.signpost # signpost-core#1.2.1.2 | &nbsp; | 
-| Apache | Apache License 2.0 | org.apache.commons # commons-compress#1.4.1 | &nbsp; | 
-| Apache | Apache License 2.0 | org.apache.commons # commons-exec#1.1 | &nbsp; | 
-| Apache | Apache License 2.0 | org.apache.commons # commons-lang3#3.1 | &nbsp; | 
-| Apache | Apache License 2.0 | org.apache.derby # derby#10.5.3.0_1 | &nbsp; | 
-| Apache | Apache License 2.0 | org.apache.httpcomponents # httpclient#4.1 | &nbsp; | 
-| Apache | Apache License 2.0 | org.apache.httpcomponents # httpclient#4.2.1 | &nbsp; | 
-| Apache | Apache License 2.0 | org.apache.httpcomponents # httpcore#4.1 | &nbsp; | 
-| Apache | Apache License 2.0 | org.apache.httpcomponents # httpcore#4.2.1 | &nbsp; | 
-| Apache | Apache License 2.0 | org.apache.httpcomponents # httpmime#4.2.3 | &nbsp; | 
-| Apache | Apache License 2.0 | org.apache.ivy # ivy#2.3.0-rc1 | &nbsp; | 
-| Apache | Apache License 2.0 | org.apache.lucene # lucene-analyzers-common#4.3.0 | &nbsp; | 
-| Apache | Apache License 2.0 | org.apache.lucene # lucene-core#4.3.0 | &nbsp; | 
-| Apache | Apache License 2.0 | org.apache.lucene # lucene-queries#4.3.0 | &nbsp; | 
-| Apache | Apache License 2.0 | org.apache.lucene # lucene-queryparser#4.3.0 | &nbsp; | 
-| Apache | Apache License 2.0 | org.apache.lucene # lucene-sandbox#4.3.0 | &nbsp; | 
-| Apache | Apache License 2.0 | org.easymock # easymock#3.1 | &nbsp; | 
-| Apache | Apache License 2.0 | org.easymock # easymockclassextension#3.1 | &nbsp; | 
-| Apache | Apache License 2.0 | org.easytesting # fest-assert#1.4 | &nbsp; | 
-| Apache | Apache License 2.0 | org.easytesting # fest-util#1.1.6 | &nbsp; | 
-| Apache | Apache License 2.0 | org.eclipse.jetty # jetty-http#8.1.9.v20130131 | &nbsp; | 
-| Apache | Apache License 2.0 | org.eclipse.jetty # jetty-io#8.1.9.v20130131 | &nbsp; | 
-| Apache | Apache License 2.0 | org.eclipse.jetty # jetty-util#8.1.9.v20130131 | &nbsp; | 
-| Apache | Apache License 2.0 | org.eclipse.jetty # jetty-websocket#8.1.9.v20130131 | &nbsp; | 
-| Apache | Apache License 2.0 | org.fusesource # sigar#1.6.4 | &nbsp; | 
-| Apache | Apache License 2.0 | org.fusesource.jansi # jansi#1.11 | &nbsp; | 
-| Apache | Apache License 2.0 | org.objenesis # objenesis#1.2 | &nbsp; | 
-| Apache | Apache License 2.0 | org.seleniumhq.selenium # selenium-android-driver#2.32.0 | &nbsp; | 
-| Apache | Apache License 2.0 | org.seleniumhq.selenium # selenium-api#2.32.0 | &nbsp; | 
-| Apache | Apache License 2.0 | org.seleniumhq.selenium # selenium-chrome-driver#2.32.0 | &nbsp; | 
-| Apache | Apache License 2.0 | org.seleniumhq.selenium # selenium-firefox-driver#2.32.0 | &nbsp; | 
-| Apache | Apache License 2.0 | org.seleniumhq.selenium # selenium-htmlunit-driver#2.32.0 | &nbsp; | 
-| Apache | Apache License 2.0 | org.seleniumhq.selenium # selenium-ie-driver#2.32.0 | &nbsp; | 
-| Apache | Apache License 2.0 | org.seleniumhq.selenium # selenium-iphone-driver#2.32.0 | &nbsp; | 
-| Apache | Apache License 2.0 | org.seleniumhq.selenium # selenium-java#2.32.0 | &nbsp; | 
-| Apache | Apache License 2.0 | org.seleniumhq.selenium # selenium-remote-driver#2.32.0 | &nbsp; | 
-| Apache | Apache License 2.0 | org.seleniumhq.selenium # selenium-safari-driver#2.32.0 | &nbsp; | 
-| Apache | Apache License 2.0 | org.seleniumhq.selenium # selenium-support#2.32.0 | &nbsp; | 
-| Apache | Apache License 2.0 | xalan # serializer#2.7.1 | &nbsp; | 
-| Apache | Apache License 2.0 | xalan # xalan#2.7.1 | &nbsp; | 
-| Apache | Apache License 2.0 | cglib # cglib-nodep#2.2.2 | &nbsp; | 
-| Apache | Apache License 2.0 | com.ning # async-http-client#1.7.18 | &nbsp; | 
-| Apache | Apache License 2.0 | org.javassist # javassist#3.18.0-GA | &nbsp; | 
-| Apache | Apache License 2.0 | org.webjars # webjars-locator#0.5 | &nbsp; | 
-| Apache | Apache License 2.0 | com.ning # async-http-client#1.7.18 | &nbsp; | 
-| Apache | Apache License 2.0 | com.ning # async-http-client#1.7.6 | &nbsp; | 
-| Apache | Apache License 2.0 | org.javassist # javassist#3.16.1-GA | &nbsp; | 
-| Apache | Apache License 2.0 | org.javassist # javassist#3.18.0-GA | &nbsp; | 
-| Apache | Apache License 2.0 | org.hibernate # hibernate-validator#5.0.1.Final | &nbsp; | 
-| Apache | Apache License Version 2.0 | org.yaml # snakeyaml#1.12 | &nbsp; | 
-| Apache | Apache License Version 2.0 | org.yaml # snakeyaml#1.6 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | io.netty # netty#3.6.6.Final | &nbsp; | 
-| Apache | Apache License,Version 2.0 | org.apache.aries # org.apache.aries.util#0.3 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | org.apache.aries.blueprint # org.apache.aries.blueprint#0.3.2 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | org.apache.aries.proxy # org.apache.aries.proxy.api#0.3 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | org.apache.aries.testsupport # org.apache.aries.testsupport.unit#0.3 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | org.apache.camel # camel-core#2.10.3 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | org.uncommons.maths # uncommons-maths#1.2.2a | &nbsp; | 
-| Apache | Apache License,Version 2.0 | com.amazonaws # aws-java-sdk#1.3.29 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | io.netty # netty#3.6.6.Final | &nbsp; | 
-| Apache | Apache License,Version 2.0 | io.netty # netty#3.7.0.Final | &nbsp; | 
-| Apache | Apache License,Version 2.0 | net.sourceforge.htmlunit # htmlunit#2.12 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | org.testng # testng#6.3.1 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | org.uncommons.maths # uncommons-maths#1.2.2a | &nbsp; | 
-| Apache | Apache License,Version 2.0 | org.webjars # bootstrap#2.3.1 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | org.webjars # explorercanvas#r3 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | net.debasishg # sjson_2.9.1#0.15 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | oauth.signpost # signpost-commonshttp4#1.2.1.2 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | oauth.signpost # signpost-core#1.2.1.2 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | voldemort.store.compress # h2-lzf#1.0 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | com.fasterxml.jackson.core # jackson-annotations#2.2.2 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | com.fasterxml.jackson.core # jackson-core#2.2.2 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | com.fasterxml.jackson.core # jackson-databind#2.2.2 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | com.google.guava # guava#12.0 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | com.google.guava # guava#14.0.1 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | commons-codec # commons-codec#1.4 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | commons-codec # commons-codec#1.6 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | commons-collections # commons-collections#3.2.1 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | commons-io # commons-io#1.4 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | commons-io # commons-io#2.0.1 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | commons-io # commons-io#2.2 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | commons-lang # commons-lang#2.6 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | commons-logging # commons-logging#1.1.1 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | io.netty # netty#3.5.4.Final | &nbsp; | 
-| Apache | Apache License,Version 2.0 | io.netty # netty#3.5.8.Final | &nbsp; | 
-| Apache | Apache License,Version 2.0 | io.netty # netty#3.6.3.Final | &nbsp; | 
-| Apache | Apache License,Version 2.0 | io.netty # netty#3.6.6.Final | &nbsp; | 
-| Apache | Apache License,Version 2.0 | io.netty # netty#3.7.0.Final | &nbsp; | 
-| Apache | Apache License,Version 2.0 | net.sourceforge.htmlunit # htmlunit#2.12 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | net.sourceforge.htmlunit # htmlunit#2.9 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | org.apache.commons # commons-exec#1.1 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | org.apache.commons # commons-lang3#3.1 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | org.apache.httpcomponents # httpclient#4.1 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | org.apache.httpcomponents # httpclient#4.1.2 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | org.apache.httpcomponents # httpclient#4.2.1 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | org.apache.httpcomponents # httpcore#4.1 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | org.apache.httpcomponents # httpcore#4.1.3 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | org.apache.httpcomponents # httpcore#4.2.1 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | org.apache.httpcomponents # httpmime#4.1.2 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | org.apache.httpcomponents # httpmime#4.2.3 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | org.easytesting # fest-assert#1.4 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | org.easytesting # fest-util#1.1.6 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | org.eclipse.jetty # jetty-http#8.1.9.v20130131 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | org.eclipse.jetty # jetty-io#8.1.9.v20130131 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | org.eclipse.jetty # jetty-util#8.1.9.v20130131 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | org.eclipse.jetty # jetty-websocket#8.1.9.v20130131 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | org.fusesource # sigar#1.6.4 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | org.objenesis # objenesis#1.2 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | org.seleniumhq.selenium # selenium-android-driver#2.25.0 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | org.seleniumhq.selenium # selenium-android-driver#2.32.0 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | org.seleniumhq.selenium # selenium-api#2.25.0 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | org.seleniumhq.selenium # selenium-api#2.32.0 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | org.seleniumhq.selenium # selenium-chrome-driver#2.25.0 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | org.seleniumhq.selenium # selenium-chrome-driver#2.32.0 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | org.seleniumhq.selenium # selenium-firefox-driver#2.25.0 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | org.seleniumhq.selenium # selenium-firefox-driver#2.32.0 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | org.seleniumhq.selenium # selenium-htmlunit-driver#2.25.0 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | org.seleniumhq.selenium # selenium-htmlunit-driver#2.32.0 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | org.seleniumhq.selenium # selenium-ie-driver#2.25.0 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | org.seleniumhq.selenium # selenium-ie-driver#2.32.0 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | org.seleniumhq.selenium # selenium-iphone-driver#2.25.0 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | org.seleniumhq.selenium # selenium-iphone-driver#2.32.0 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | org.seleniumhq.selenium # selenium-java#2.25.0 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | org.seleniumhq.selenium # selenium-java#2.32.0 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | org.seleniumhq.selenium # selenium-remote-driver#2.25.0 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | org.seleniumhq.selenium # selenium-remote-driver#2.32.0 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | org.seleniumhq.selenium # selenium-safari-driver#2.25.0 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | org.seleniumhq.selenium # selenium-safari-driver#2.32.0 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | org.seleniumhq.selenium # selenium-support#2.25.0 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | org.seleniumhq.selenium # selenium-support#2.32.0 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | org.uncommons.maths # uncommons-maths#1.2.2a | &nbsp; | 
-| Apache | Apache License,Version 2.0 | xalan # serializer#2.7.1 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | xalan # xalan#2.7.1 | &nbsp; | 
-| Apache | Apache License,Version 2.0 | org.fusesource.jansi # jansi#1.4 | &nbsp; | 
-| Apache | the Apache License,ASL Version 2.0 | org.scalatest # scalatest_2.10#1.9.1 | &nbsp; | 
-| Apache | the Apache License,ASL Version 2.0 | org.scalatest # scalatest_2.11.0-M3#1.9.1b | &nbsp; | 
-| Apache | the Apache License,ASL Version 2.0 | org.scalatest # scalatest_2.9.2#1.9.1 | &nbsp; | 
-| Apache | The Apache Software License,Version 2.0 | com.github.jnr # jnr-constants#0.8.2 | &nbsp; | 
-| Apache | The Apache Software License,Version 2.0 | org.zeromq # zeromq-scala-binding_2.10#0.0.7 | &nbsp; | 
-| Apache | The Apache Software License,Version 2.0 | org.springframework # spring-beans#3.2.3.RELEASE | &nbsp; | 
-| Apache | The Apache Software License,Version 2.0 | com.beust # jcommander#1.12 | &nbsp; | 
-| Apache | The Apache Software License,Version 2.0 | com.fasterxml # classmate#0.8.0 | &nbsp; | 
-| Apache | The Apache Software License,Version 2.0 | com.google.code.findbugs # jsr305#2.0.1 | &nbsp; | 
-| Apache | The Apache Software License,Version 2.0 | com.google.javascript # closure-compiler#v20130603 | &nbsp; | 
-| Apache | The Apache Software License,Version 2.0 | commons-codec # commons-codec#1.3 | &nbsp; | 
-| Apache | The Apache Software License,Version 2.0 | eu.medsea.mimeutil # mime-util#2.1.1 | &nbsp; | 
-| Apache | The Apache Software License,Version 2.0 | javax.inject # javax.inject#1 | &nbsp; | 
-| Apache | The Apache Software License,Version 2.0 | javax.validation # validation-api#1.1.0.Final | &nbsp; | 
-| Apache | The Apache Software License,Version 2.0 | log4j # log4j#1.2.14 | &nbsp; | 
-| Apache | The Apache Software License,Version 2.0 | log4j # log4j#1.2.15 | &nbsp; | 
-| Apache | The Apache Software License,Version 2.0 | log4j # log4j#1.2.17 | &nbsp; | 
-| Apache | The Apache Software License,Version 2.0 | net.sourceforge.nekohtml # nekohtml#1.9.18 | &nbsp; | 
-| Apache | The Apache Software License,Version 2.0 | org.avaje.ebeanorm # avaje-ebeanorm-agent#3.2.1 | &nbsp; | 
-| Apache | The Apache Software License,Version 2.0 | org.codehaus.jackson # jackson-core-asl#1.8.9 | &nbsp; | 
-| Apache | The Apache Software License,Version 2.0 | org.codehaus.jackson # jackson-mapper-asl#1.8.9 | &nbsp; | 
-| Apache | The Apache Software License,Version 2.0 | org.fusesource.jansi # jansi#1.4 | &nbsp; | 
-| Apache | The Apache Software License,Version 2.0 | org.sonatype.sisu.inject # cglib#2.2.1-v20090111 | &nbsp; | 
-| Apache | The Apache Software License,Version 2.0 | org.springframework # spring-context#3.2.3.RELEASE | &nbsp; | 
-| Apache | The Apache Software License,Version 2.0 | org.springframework # spring-core#3.2.3.RELEASE | &nbsp; | 
-| Apache | The Apache Software License,Version 2.0 | org.webjars # ace#04.09.2013 | &nbsp; | 
-| Apache | The Apache Software License,Version 2.0 | xerces # xercesImpl#2.11.0 | &nbsp; | 
-| Apache | The Apache Software License,Version 2.0 | xml-apis # xml-apis#1.4.01 | &nbsp; | 
-| Apache | The Apache Software License,Version 2.0 | com.google.code.findbugs # jsr305#1.3.9 | &nbsp; | 
-| Apache | The Apache Software License,Version 2.0 | com.google.code.findbugs # jsr305#2.0.1 | &nbsp; | 
-| Apache | The Apache Software License,Version 2.0 | commons-codec # commons-codec#1.3 | &nbsp; | 
-| Apache | The Apache Software License,Version 2.0 | log4j # log4j#1.2.15 | &nbsp; | 
-| Apache | The Apache Software License,Version 2.0 | net.sf.ehcache # ehcache-core#2.6.0 | &nbsp; | 
-| Apache | The Apache Software License,Version 2.0 | net.sf.ehcache # ehcache-core#2.6.6 | &nbsp; | 
-| Apache | The Apache Software License,Version 2.0 | net.sourceforge.nekohtml # nekohtml#1.9.15 | &nbsp; | 
-| Apache | The Apache Software License,Version 2.0 | net.sourceforge.nekohtml # nekohtml#1.9.18 | &nbsp; | 
-| Apache | The Apache Software License,Version 2.0 | org.codehaus.jackson # jackson-core-asl#1.9.10 | &nbsp; | 
-| Apache | The Apache Software License,Version 2.0 | org.codehaus.jackson # jackson-core-asl#1.9.9 | &nbsp; | 
-| Apache | The Apache Software License,Version 2.0 | org.codehaus.jackson # jackson-mapper-asl#1.9.10 | &nbsp; | 
-| Apache | The Apache Software License,Version 2.0 | org.codehaus.jackson # jackson-mapper-asl#1.9.9 | &nbsp; | 
-| Apache | The Apache Software License,Version 2.0 | org.mongodb # mongo-java-driver#2.11.2 | &nbsp; | 
-| Apache | The Apache Software License,Version 2.0 | xerces # xercesImpl#2.11.0 | &nbsp; | 
-| Apache | The Apache Software License,Version 2.0 | xml-apis # xml-apis#1.4.01 | &nbsp; | 
-| BSD | BSD | org.scala-stm # scala-stm_2.10#0.7 | &nbsp; | 
-| BSD | BSD | JLine 2.x | &nbsp; | 
-| BSD | BSD | jline # jline#0.9.94 | &nbsp; | 
-| BSD | BSD | org.scala-stm # scala-stm_2.10#0.7 | &nbsp; | 
-| BSD | BSD | com.jcraft # jzlib#1.0.7 | &nbsp; | 
-| BSD | BSD | org.scala-sbt # test-interface#1.0 | &nbsp; | 
-| BSD | BSD | org.scala-stm # scala-stm_2.10.0#0.6 | &nbsp; | 
-| BSD | BSD | org.scala-stm # scala-stm_2.10#0.7 | &nbsp; | 
-| BSD | BSD | com.thoughtworks.paranamer # paranamer#2.5.2 | &nbsp; | 
-| BSD | BSD licence | org.ow2.asm # asm#4.1 | &nbsp; | 
-| BSD | BSD licence | org.hamcrest # hamcrest-core#1.1 | &nbsp; | 
-| BSD | BSD licence | org.hamcrest # hamcrest-core#1.3 | &nbsp; | 
-| BSD | BSD licence | org.hamcrest # hamcrest-library#1.1 | &nbsp; | 
-| BSD | BSD licence | org.ow2.asm # asm#4.1 | &nbsp; | 
-| BSD | BSD licence | org.antlr # stringtemplate#3.2 | &nbsp; | 
-| BSD | BSD License | antlr # antlr#2.7.7 | &nbsp; | 
-| BSD | BSD License | org.webbitserver # webbit#0.4.14 | &nbsp; | 
-| BSD | BSD License | org.webbitserver # webbit#0.4.6 | &nbsp; | 
-| BSD | BSD license | org.hamcrest # hamcrest-core#1.1 | &nbsp; | 
-| BSD | BSD license | org.hamcrest # hamcrest-core#1.3 | &nbsp; | 
-| BSD | BSD-like | org.scala-lang # scala-reflect#2.10.2 | &nbsp; | 
-| BSD | BSD-style | dom4j # dom4j#1.6.1 | &nbsp; | 
-| BSD | BSD-style | org.jmock # jmock-legacy#2.5.1 | &nbsp; | 
-| BSD | BSD-style | org.jmock # jmock#2.5.1 | &nbsp; | 
-| BSD | BSD-style | org.json # json#20080701 | &nbsp; | 
-| BSD | BSD-style | org.json # json#20090211 | &nbsp; | 
-| BSD | BSD-style | org.scala-sbt # control#0.13.0 | &nbsp; | 
-| BSD | BSD-style | com.github.mpeltonen # sbt-idea#1.5.1 | &nbsp; | 
-| BSD | BSD-style | com.github.mpeltonen # sbt-idea#1.5.2 | &nbsp; | 
-| BSD | BSD-style | org.scalacheck # scalacheck_2.10#1.10.0 | &nbsp; | 
-| BSD | BSD-style | org.scalaz # scalaz-concurrent_2.10#7.0.2 | &nbsp; | 
-| BSD | BSD-style | org.scalaz # scalaz-core_2.10#6.0.4 | &nbsp; | 
-| BSD | BSD-style | org.scalaz # scalaz-core_2.10#7.0.2 | &nbsp; | 
-| BSD | BSD-style | org.scalaz # scalaz-effect_2.10#7.0.2 | &nbsp; | 
-| BSD | BSD-style | com.jsuereth # scala-arm_2.10#1.3 | &nbsp; | 
-| BSD | BSD-style | org.json # json#20080701 | &nbsp; | 
-| BSD | BSD-style | org.scalaz # scalaz-concurrent_2.10#7.0.2 | &nbsp; | 
-| BSD | BSD-style | org.scalaz # scalaz-core_2.10#7.0.2 | &nbsp; | 
-| BSD | BSD-style | org.scalaz # scalaz-effect_2.10#7.0.2 | &nbsp; | 
-| BSD | new BSD | org.webjars # requirejs-text#2.0.10 | &nbsp; | 
-| BSD | New BSD license | com.google.protobuf # protobuf-java#2.4.1 | &nbsp; | 
-| BSD | Revised BSD | com.jcraft # jsch#0.1.44-1 | &nbsp; | 
-| BSD | Revised BSD | com.jcraft # jsch#0.1.46 | &nbsp; | 
-| BSD | Revised-BSD | com.jcraft # jsch#0.1.46 | &nbsp; | 
-| BSD | Scala License | com.jsuereth # scala-arm_2.10#1.3 | &nbsp; | 
-| BSD | The New BSD License | org.webjars # requirejs#2.1.8 | &nbsp; | 
-| BSD | The BSD License | jline # jline#2.11 | &nbsp; | 
-| BSD | The BSD License | org.scala-lang # jline#2.10.2 | &nbsp; | 
-| BSD | Two-clause BSD-style license | com.novocode # junit-interface#0.10 | &nbsp; | 
-| BSD | Two-clause BSD-style license | com.novocode # junit-interface#0.7 | &nbsp; | 
-| BSD | Two-clause BSD-style license | com.typesafe.slick # slick_2.10#1.0.1 | &nbsp; | 
-| BSD | Two-clause BSD-style license | com.novocode # junit-interface#0.10 | &nbsp; | 
-| Common Public License | Common Public License Version 1.0 | junit # junit-dep#4.10 | &nbsp; | 
-| Common Public License | Common Public License Version 1.0 | junit # junit#3.8.1 | &nbsp; | 
-| Common Public License | Common Public License Version 1.0 | junit # junit#4.10 | &nbsp; | 
-| Common Public License | Common Public License Version 1.0 | junit # junit#4.11 | &nbsp; | 
-| Common Public License | Common Public License Version 1.0 | junit # junit#4.5 | &nbsp; | 
-| Common Public License | Common Public License Version 1.0 | junit # junit#4.8.2 | &nbsp; | 
-| Common Public License | Common Public License Version 1.0 | junit # junit-dep#4.10 | &nbsp; | 
-| Common Public License | Common Public License Version 1.0 | junit # junit-dep#4.8.2 | &nbsp; | 
-| Common Public License | Common Public License Version 1.0 | junit # junit#4.11 | &nbsp; | 
-| Common Public License | Common Public License Version 1.0 | junit # junit#4.5 | &nbsp; | 
-| Creative Commons | CC0 1.0 Universal | forkjoin | &nbsp; | 
-| Eclipse | Eclipse Public License - v 1.0 | ch.qos.logback # logback-classic#1.0.13 | &nbsp; | 
-| Eclipse | Eclipse Public License - v 1.0 | ch.qos.logback # logback-core#1.0.13 | &nbsp; | 
-| Eclipse | Eclipse Public License - v 1.0 | org.aspectj # aspectjrt#1.7.3 | &nbsp; | 
-| Eclipse | Eclipse Public License - v 1.0 | org.aspectj # aspectjtools#1.7.3 | &nbsp; | 
-| Eclipse | Eclipse Public License - v 1.0 | org.aspectj # aspectjweaver#1.7.3 | &nbsp; | 
-| Eclipse | Eclipse Public License - v 1.0 | ch.qos.logback # logback-classic#1.0.13 | &nbsp; | 
-| Eclipse | Eclipse Public License - v 1.0 | ch.qos.logback # logback-classic#1.0.7 | &nbsp; | 
-| Eclipse | Eclipse Public License - v 1.0 | ch.qos.logback # logback-core#1.0.13 | &nbsp; | 
-| Eclipse | Eclipse Public License - v 1.0 | ch.qos.logback # logback-core#1.0.7 | &nbsp; | 
-| Eclipse | Eclipse Public License - v 1.0 | org.aspectj # aspectjrt#1.7.3 | &nbsp; | 
-| Eclipse | Eclipse Public License - v 1.0 | org.aspectj # aspectjtools#1.7.3 | &nbsp; | 
-| Eclipse | Eclipse Public License - v 1.0 | org.aspectj # aspectjweaver#1.7.3 | &nbsp; | 
-| H2 | The H2 License | com.h2database # h2#1.3.166 | &nbsp; | 
-| H2 | The H2 License | com.h2database # h2#1.3.172 | &nbsp; | 
-| MIT | MIT | org.scala-tools.testing # test-interface#0.5 | &nbsp; | 
-| MIT | MIT | org.webjars # require-css#0.0.7-3 | &nbsp; | 
-| MIT | MIT | org.webjars # requirejs-text#2.0.10 | &nbsp; | 
-| MIT | MIT license | org.slf4j # slf4j-api#1.5.11 | &nbsp; | 
-| MIT | MIT license | org.slf4j # slf4j-api#1.7.2 | &nbsp; | 
-| MIT | MIT license | org.slf4j # slf4j-api#1.6.4 | &nbsp; | 
-| MIT | MIT License | org.scala-tools.sbinary # sbinary_2.10#0.4.1 | &nbsp; | 
-| MIT | MIT License | org.scala-tools.sbinary # sbinary_2.10#0.4.2 | &nbsp; | 
-| MIT | MIT License | org.slf4j # jul-to-slf4j#1.7.5 | &nbsp; | 
-| MIT | MIT License | org.slf4j # slf4j-api#1.6.4 | &nbsp; | 
-| MIT | MIT License | org.slf4j # slf4j-api#1.7.2 | &nbsp; | 
-| MIT | MIT License | org.slf4j # slf4j-api#1.7.5 | &nbsp; | 
-| MIT | MIT License | org.slf4j # slf4j-log4j12#1.6.6 | &nbsp; | 
-| MIT | MIT License | org.slf4j # slf4j-nop#1.6.4 | &nbsp; | 
-| MIT | MIT License | org.webjars # ace#04.09.2013 | &nbsp; | 
-| MIT | MIT License | org.webjars # flot#0.8.0 | &nbsp; | 
-| MIT | MIT License | org.webjars # jquery-colorhelpers#1.1 | &nbsp; | 
-| MIT | MIT License | org.webjars # jquery#1.8.2 | &nbsp; | 
-| MIT | MIT License | org.webjars # jquery#1.9.0 | &nbsp; | 
-| MIT | MIT License | org.webjars # jquery#2.0.3 | &nbsp; | 
-| MIT | MIT License | org.webjars # keymage#1.0.1 | &nbsp; | 
-| MIT | MIT License | org.webjars # knockout#2.2.1 | &nbsp; | 
-| MIT | MIT License | org.webjars # webjars-play_2.10#2.2.0 | &nbsp; | 
-| MIT | MIT License | org.scala-tools.testing # test-interface#0.5 | &nbsp; | 
-| MIT | MIT License | org.slf4j # jcl-over-slf4j#1.6.6 | &nbsp; | 
-| MIT | MIT License | org.slf4j # jcl-over-slf4j#1.7.5 | &nbsp; | 
-| MIT | MIT License | org.slf4j # jul-to-slf4j#1.6.6 | &nbsp; | 
-| MIT | MIT License | org.slf4j # jul-to-slf4j#1.7.5 | &nbsp; | 
-| MIT | MIT License | org.slf4j # slf4j-api#1.6.4 | &nbsp; | 
-| MIT | MIT License | org.slf4j # slf4j-api#1.6.6 | &nbsp; | 
-| MIT | MIT License | org.slf4j # slf4j-api#1.7.2 | &nbsp; | 
-| MIT | MIT License | org.slf4j # slf4j-api#1.7.5 | &nbsp; | 
-| MIT | Mit-style | org.specs2 # specs2_2.10#2.1.1 | &nbsp; | 
-| MIT | MIT-style | org.specs2 # scalaz-concurrent_2.10#7.0.0 | &nbsp; | 
-| MIT | MIT-style | org.specs2 # scalaz-core_2.10#7.0.0 | &nbsp; | 
-| MIT | MIT-style | org.specs2 # scalaz-effect_2.10#7.0.0 | &nbsp; | 
-| MIT | MIT-style | org.specs2 # specs2_2.10#1.13 | &nbsp; | 
-| MIT | MIT-style | org.specs2 # specs2_2.10#2.1.1 | &nbsp; | 
-| MIT | The MIT License | org.mockito # mockito-all#1.9.0 | &nbsp; | 
-| MIT | MIT license | org.slf4j # jcl-over-slf4j#1.7.5 | &nbsp; | 
-| Mozilla | Mozilla Public License version 1.1 | net.sourceforge.htmlunit # htmlunit-core-js#2.9 | &nbsp; | 
-| Mozilla | Mozilla Public License version 2.0 | net.sourceforge.htmlunit # htmlunit-core-js#2.12 | &nbsp; | 
-| Mozilla | Mozilla Public License,Version 2.0 | org.mozilla # rhino#1.7R4 | &nbsp; | 
-| Mozilla | MPL 1.1 | org.javassist # javassist#3.18.0-GA | &nbsp; | 
-| Mozilla | MPL 1.1 | org.javassist # javassist#3.16.1-GA | &nbsp; | 
-| Mozilla | MPL 1.1 | org.javassist # javassist#3.18.0-GA | &nbsp; | 
-| OSGI | OSGi Specification License,Version 2.0 | org.osgi # org.osgi.compendium#4.2.0 | &nbsp; | 
-| OSGI | OSGi Specification License,Version 2.0 | org.osgi # org.osgi.core#4.2.0 | &nbsp; | 
-| OW2 | BSD licence | asm # asm#3.1 | &nbsp; | 
-| OW2 | BSD licence | org.ow2.asm # asm-analysis#4.1 | &nbsp; | 
-| OW2 | BSD licence | org.ow2.asm # asm-tree#4.1 | &nbsp; | 
-| OW2 | BSD licence | org.ow2.asm # asm-util#4.1 | &nbsp; | 
-| PD | Public Domain | aopalliance # aopalliance#1.0 | &nbsp; | 
-| PD | Public Domain | org.tukaani # xz#1.0 | &nbsp; | 
-| SAX | The SAX License | xml-apis # xml-apis#1.4.01 | &nbsp; | 
-| Scala | Scala | fjbg | &nbsp; | 
-| Scala | Scala License | com.github.scala-incubator.io # scala-io-core_2.10#0.4.2 | &nbsp; | 
-| Scala | Scala License | com.github.scala-incubator.io # scala-io-file_2.10#0.4.2 | &nbsp; | 
-| Scala | Scala License | com.github.scala-incubator.io # scala-io-core_2.10#0.4.2 | &nbsp; | 
-| Scala | Scala License | com.github.scala-incubator.io # scala-io-file_2.10#0.4.2 | &nbsp; | 
-| SPL | Sun Public License | org.beanshell # bsh#2.0b4 | &nbsp; | 
-| Sun/Oracle | CDDL | javax.transaction # jta#1.1 | &nbsp; | 
-| Sun/Oracle | CDDL | javax.servlet # javax.servlet-api#3.0.1 | &nbsp; | 
-| W3C | The W3C License | xml-apis # xml-apis#1.4.01 | &nbsp; | 
-| W3C | The W3C Software License | org.w3c.css # sac#1.3 | &nbsp; | 
-| WTFPL | WTFPL | org.reflections # reflections#0.9.8 | &nbsp; | 
+
+Category | License | Dependency | Notes
+--- | --- | --- | ---
+Apache | [         Apache License, Version 2.0       ](         http://opensource.org/licenses/apache2.0.php       ) | org.osgi # org.osgi.compendium # 4.3.1 | <notextile></notextile>
+Apache | [         Apache License, Version 2.0       ](         http://opensource.org/licenses/apache2.0.php       ) | org.osgi # org.osgi.core # 4.3.1 | <notextile></notextile>
+Apache | [Apache 2](http://www.apache.org/licenses/LICENSE-2.0.txt) | com.typesafe.netty # netty-http-pipelining # 1.1.2 | <notextile></notextile>
+Apache | [Apache 2](http://www.apache.org/licenses/LICENSE-2.0.txt) | io.spray # spray-can # 1.3.1 | <notextile></notextile>
+Apache | [Apache 2](http://www.apache.org/licenses/LICENSE-2.0.txt) | io.spray # spray-http # 1.3.1 | <notextile></notextile>
+Apache | [Apache 2](http://www.apache.org/licenses/LICENSE-2.0.txt) | io.spray # spray-io # 1.3.1 | <notextile></notextile>
+Apache | [Apache 2](http://www.apache.org/licenses/LICENSE-2.0.txt) | io.spray # spray-util # 1.3.1 | <notextile></notextile>
+Apache | [Apache 2](http://www.apache.org/licenses/LICENSE-2.0.txt) | joda-time # joda-time # 2.3 | <notextile></notextile>
+Apache | [Apache 2](http://www.apache.org/licenses/LICENSE-2.0.txt) | org.fluentlenium # fluentlenium-core # 0.9.2 | <notextile></notextile>
+Apache | [Apache 2](http://www.apache.org/licenses/LICENSE-2.0.txt) | org.fluentlenium # fluentlenium-festassert # 0.9.2 | <notextile></notextile>
+Apache | [Apache 2](http://www.apache.org/licenses/LICENSE-2.0.txt) | org.joda # joda-convert # 1.6 | <notextile></notextile>
+Apache | [Apache 2](http://www.apache.org/licenses/LICENSE-2.0.txt) | org.parboiled # parboiled-core # 1.1.6 | <notextile></notextile>
+Apache | [Apache 2](http://www.apache.org/licenses/LICENSE-2.0.txt) | org.parboiled # parboiled-scala_2.10 # 1.1.6 | <notextile></notextile>
+Apache | [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.ning # async-http-client # 1.8.8 | <notextile></notextile>
+Apache | [Apache License Version 2.0](LICENSE.txt) | org.yaml # snakeyaml # 1.13 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | cglib # cglib-nodep # 2.1_3 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.fasterxml.jackson.core # jackson-annotations # 2.3.2 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.fasterxml.jackson.core # jackson-core # 2.3.2 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.fasterxml.jackson.core # jackson-databind # 2.3.2 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.google.guava # guava # 16.0.1 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.typesafe.activator # activator-common # 1.0-e9eaed4661e404bea0523f07a81ae5bff1485125 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.typesafe.activator # activator-launcher # 1.2.3 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.typesafe.activator # activator-props # 1.2.3 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.typesafe.activator # activator-templates-cache # 1.0-e9eaed4661e404bea0523f07a81ae5bff1485125 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.typesafe.activator # activator-ui # 1.2.3 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.typesafe.activator # activator-ui-common # 1.2.3 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.typesafe.activator # analytics_2.11 # 0.1.5 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.typesafe.play # build-link # 2.3.1 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.typesafe.play # filters-helpers_2.11 # 2.3.1 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.typesafe.play # play-datacommons_2.11 # 2.3.1 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.typesafe.play # play-exceptions # 2.3.1 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.typesafe.play # play-functional_2.11 # 2.3.1 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.typesafe.play # play-integration-test_2.11 # 2.3.1 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.typesafe.play # play-iteratees_2.11 # 2.3.1 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.typesafe.play # play-java-ws_2.11 # 2.3.1 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.typesafe.play # play-java_2.11 # 2.3.1 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.typesafe.play # play-json_2.11 # 2.3.1 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.typesafe.play # play-test_2.11 # 2.3.1 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.typesafe.play # play-ws_2.11 # 2.3.1 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.typesafe.play # play_2.11 # 2.3.1 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.typesafe.play # twirl-api_2.11 # 1.0.2 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.typesafe.sbtrc # sbt-rc-props # 1.0-46280b51037faa6d50698c46c8725d33b75cae1e | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.typesafe.sbtrc # sbt-rc-remote-controller # 1.0-46280b51037faa6d50698c46c8725d33b75cae1e | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | commons-codec # commons-codec # 1.3 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | commons-codec # commons-codec # 1.9 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | commons-collections # commons-collections # 3.2.1 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | commons-io # commons-io # 2.0.1 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | commons-io # commons-io # 2.2 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | commons-logging # commons-logging # 1.1.1 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | commons-logging # commons-logging # 1.1.3 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | jakarta-regexp # jakarta-regexp # 1.4 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | oauth.signpost # signpost-commonshttp4 # 1.2.1.2 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | oauth.signpost # signpost-core # 1.2.1.2 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | org.apache.camel # camel-core # 2.10.3 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | org.apache.commons # commons-compress # 1.4.1 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | org.apache.commons # commons-exec # 1.1 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | org.apache.commons # commons-lang3 # 3.1 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | org.apache.httpcomponents # httpclient # 4.1 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | org.apache.httpcomponents # httpclient # 4.3.1 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | org.apache.httpcomponents # httpcore # 4.1 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | org.apache.httpcomponents # httpcore # 4.3 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | org.apache.httpcomponents # httpmime # 4.3.1 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | org.apache.lucene # lucene-analyzers-common # 4.3.0 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | org.apache.lucene # lucene-core # 4.3.0 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | org.apache.lucene # lucene-queries # 4.3.0 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | org.apache.lucene # lucene-queryparser # 4.3.0 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | org.apache.lucene # lucene-sandbox # 4.3.0 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | org.apache.tomcat # tomcat-servlet-api # 8.0.5 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | org.easytesting # fest-assert # 1.4 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | org.easytesting # fest-util # 1.1.6 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | org.eclipse.jetty # jetty-http # 8.1.12.v20130726 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | org.eclipse.jetty # jetty-io # 8.1.12.v20130726 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | org.eclipse.jetty # jetty-util # 8.1.12.v20130726 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | org.eclipse.jetty # jetty-websocket # 8.1.12.v20130726 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | org.hibernate # hibernate-validator # 5.0.3.Final | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | org.scala-sbt # collections # 0.13.5 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | org.scala-sbt # completion # 0.13.5 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | org.scala-sbt # control # 0.13.5 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | org.scala-sbt # io # 0.13.5 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | org.scala-sbt # launcher-interface # 0.13.5 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | org.scala-sbt # test-interface # 1.0 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | org.seleniumhq.selenium # selenium-android-driver # 2.39.0 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | org.seleniumhq.selenium # selenium-api # 2.39.0 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | org.seleniumhq.selenium # selenium-chrome-driver # 2.39.0 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | org.seleniumhq.selenium # selenium-firefox-driver # 2.39.0 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | org.seleniumhq.selenium # selenium-htmlunit-driver # 2.39.0 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | org.seleniumhq.selenium # selenium-ie-driver # 2.39.0 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | org.seleniumhq.selenium # selenium-iphone-driver # 2.39.0 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | org.seleniumhq.selenium # selenium-java # 2.39.0 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | org.seleniumhq.selenium # selenium-remote-driver # 2.39.0 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | org.seleniumhq.selenium # selenium-safari-driver # 2.39.0 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | org.seleniumhq.selenium # selenium-support # 2.39.0 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | xalan # serializer # 2.7.1 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | xalan # xalan # 2.7.1 | <notextile></notextile>
+Apache | [Apache License, Version 2.0](http://aws.amazon.com/apache2.0) | com.amazonaws # aws-java-sdk # 1.3.29 | <notextile></notextile>
+Apache | [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) | com.typesafe # config # 1.2.1 | <notextile></notextile>
+Apache | [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) | com.typesafe.akka # akka-actor_2.11 # 2.3.4 | <notextile></notextile>
+Apache | [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) | com.typesafe.akka # akka-agent_2.11 # 2.3.4 | <notextile></notextile>
+Apache | [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) | com.typesafe.akka # akka-camel_2.11 # 2.3.4 | <notextile></notextile>
+Apache | [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) | com.typesafe.akka # akka-cluster_2.11 # 2.3.4 | <notextile></notextile>
+Apache | [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) | com.typesafe.akka # akka-dataflow_2.11 # 2.3.4 | <notextile></notextile>
+Apache | [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) | com.typesafe.akka # akka-file-mailbox_2.11 # 2.3.4 | <notextile></notextile>
+Apache | [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) | com.typesafe.akka # akka-kernel_2.11 # 2.3.4 | <notextile></notextile>
+Apache | [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) | com.typesafe.akka # akka-mailboxes-common_2.11 # 2.3.4 | <notextile></notextile>
+Apache | [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) | com.typesafe.akka # akka-multi-node-testkit_2.11 # 2.3.4 | <notextile></notextile>
+Apache | [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) | com.typesafe.akka # akka-osgi_2.11 # 2.3.4 | <notextile></notextile>
+Apache | [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) | com.typesafe.akka # akka-remote-tests_2.11 # 2.3.4 | <notextile></notextile>
+Apache | [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) | com.typesafe.akka # akka-remote_2.11 # 2.3.4 | <notextile></notextile>
+Apache | [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) | com.typesafe.akka # akka-slf4j_2.11 # 2.3.4 | <notextile></notextile>
+Apache | [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) | com.typesafe.akka # akka-testkit_2.11 # 2.3.3 | <notextile></notextile>
+Apache | [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) | com.typesafe.akka # akka-testkit_2.11 # 2.3.4 | <notextile></notextile>
+Apache | [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) | com.typesafe.akka # akka-transactor_2.11 # 2.3.4 | <notextile></notextile>
+Apache | [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) | io.netty # netty # 3.9.2.Final | <notextile></notextile>
+Apache | [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.txt) | net.sourceforge.htmlunit # htmlunit # 2.13 | <notextile></notextile>
+Apache | [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | org.uncommons.maths # uncommons-maths # 1.2.2a | <notextile></notextile>
+Apache | [The Apache Software License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.txt) | com.fasterxml # classmate # 1.0.0 | <notextile></notextile>
+Apache | [The Apache Software License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.txt) | com.google.code.findbugs # jsr305 # 2.0.3 | <notextile></notextile>
+Apache | [The Apache Software License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.txt) | eu.medsea.mimeutil # mime-util # 2.1.1 | <notextile></notextile>
+Apache | [The Apache Software License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.txt) | javax.validation # validation-api # 1.1.0.Final | <notextile></notextile>
+Apache | [The Apache Software License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.txt) | net.sourceforge.nekohtml # nekohtml # 1.9.19 | <notextile></notextile>
+Apache | [The Apache Software License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.txt) | org.codehaus.jackson # jackson-core-asl # 1.8.9 | <notextile></notextile>
+Apache | [The Apache Software License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.txt) | org.codehaus.jackson # jackson-core-asl # 1.9.9 | <notextile></notextile>
+Apache | [The Apache Software License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.txt) | org.codehaus.jackson # jackson-mapper-asl # 1.8.9 | <notextile></notextile>
+Apache | [The Apache Software License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.txt) | org.codehaus.jackson # jackson-mapper-asl # 1.9.9 | <notextile></notextile>
+Apache | [The Apache Software License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.txt) | org.specs2 # classycle # 1.4.3 | <notextile></notextile>
+Apache | [The Apache Software License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.txt) | org.springframework # spring-beans # 4.0.3.RELEASE | <notextile></notextile>
+Apache | [The Apache Software License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.txt) | org.springframework # spring-context # 4.0.3.RELEASE | <notextile></notextile>
+Apache | [The Apache Software License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.txt) | org.springframework # spring-core # 4.0.3.RELEASE | <notextile></notextile>
+Apache | [The Apache Software License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.txt) | xerces # xercesImpl # 2.11.0 | <notextile></notextile>
+Apache | [the Apache License, ASL Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) | org.scalatest # scalatest_2.11 # 2.1.5 | <notextile></notextile>
+BSD | [BSD](https://github.com/nbronson/scala-stm/blob/master/LICENSE.txt) | org.scala-stm # scala-stm_2.11 # 0.7 | <notextile></notextile>
+BSD | [BSD 3-Clause](http://www.scala-lang.org/license.html) | org.scala-lang # scala-compiler # 2.11.0 | <notextile></notextile>
+BSD | [BSD 3-Clause](http://www.scala-lang.org/license.html) | org.scala-lang # scala-library # 2.11.0 | <notextile></notextile>
+BSD | [BSD 3-Clause](http://www.scala-lang.org/license.html) | org.scala-lang # scala-library # 2.11.1 | <notextile></notextile>
+BSD | [BSD 3-Clause](http://www.scala-lang.org/license.html) | org.scala-lang # scala-reflect # 2.11.0 | <notextile></notextile>
+BSD | [BSD 3-Clause](http://www.scala-lang.org/license.html) | org.scala-lang # scala-reflect # 2.11.1 | <notextile></notextile>
+BSD | [BSD 3-clause](http://opensource.org/licenses/BSD-3-Clause) | org.scala-lang.modules # scala-parser-combinators_2.11 # 1.0.1 | <notextile></notextile>
+BSD | [BSD 3-clause](http://opensource.org/licenses/BSD-3-Clause) | org.scala-lang.modules # scala-xml_2.11 # 1.0.1 | <notextile></notextile>
+BSD | [BSD 3-clause](http://opensource.org/licenses/BSD-3-Clause) | org.scala-lang.plugins # scala-continuations-library_2.11 # 1.0.2 | <notextile></notextile>
+BSD | [BSD License](http://www.opensource.org/licenses/bsd-license) | org.webbitserver # webbit # 0.4.14 | <notextile></notextile>
+BSD | [BSD-style](http://opensource.org/licenses/BSD-2-Clause) | dom4j # dom4j # 1.6.1 | <notextile></notextile>
+BSD | [BSD-style](http://opensource.org/licenses/BSD-2-Clause) | org.hamcrest # hamcrest-core # 1.3 | <notextile></notextile>
+BSD | [BSD-style](http://www.json.org/license.html) | org.json # json # 20080701 | <notextile></notextile>
+BSD | [BSD-style](http://www.opensource.org/licenses/bsd-license.php) | org.scalaz # scalaz-concurrent_2.11 # 7.0.6 | <notextile></notextile>
+BSD | [BSD-style](http://www.opensource.org/licenses/bsd-license.php) | org.scalaz # scalaz-core_2.11 # 7.0.6 | <notextile></notextile>
+BSD | [BSD-style](http://www.opensource.org/licenses/bsd-license.php) | org.scalaz # scalaz-effect_2.11 # 7.0.6 | <notextile></notextile>
+BSD | [New BSD license](http://www.opensource.org/licenses/bsd-license.php) | com.google.protobuf # protobuf-java # 2.5.0 | <notextile></notextile>
+BSD | [The BSD License](http://www.opensource.org/licenses/bsd-license.php) | jline # jline # 2.11 | <notextile></notextile>
+BSD | [Two-clause BSD-style license](http://github.com/sbt/junit-interface/blob/master/LICENSE.txt) | com.novocode # junit-interface # 0.11-RC1 | <notextile></notextile>
+BSD | [Two-clause BSD-style license](http://github.com/slick/slick/blob/master/LICENSE.txt) | com.typesafe.slick # slick_2.11 # 2.1.0-RC1 | <notextile></notextile>
+Common Public License | [Common Public License Version 1.0](http://www.opensource.org/licenses/cpl1.0.txt) | junit # junit # 4.11 | <notextile></notextile>
+Common Public License | [Common Public License Version 1.0](http://www.opensource.org/licenses/cpl1.0.txt) | junit # junit # 4.5 | <notextile></notextile>
+Eclipse | [Eclipse Public License - v 1.0](http://www.eclipse.org/legal/epl-v10.html) | ch.qos.logback # logback-classic # 1.1.1 | <notextile></notextile>
+Eclipse | [Eclipse Public License - v 1.0](http://www.eclipse.org/legal/epl-v10.html) | ch.qos.logback # logback-core # 1.1.1 | <notextile></notextile>
+ISC | [ISC](https://raw.githubusercontent.com/piranha/keymage/master/LICENSE) | org.webjars # keymage # 1.0.1 | <notextile></notextile>
+MIT | [MIT License](http://objenesis.googlecode.com/svn/docs/license.html) | org.objenesis # objenesis # 1.0 | <notextile></notextile>
+MIT | [MIT License](http://slf4j.org/license.html) | org.slf4j # jcl-over-slf4j # 1.7.6 | <notextile></notextile>
+MIT | [MIT License](http://slf4j.org/license.html) | org.slf4j # jul-to-slf4j # 1.7.6 | <notextile></notextile>
+MIT | [MIT License](http://slf4j.org/license.html) | org.slf4j # slf4j-api # 1.7.6 | <notextile></notextile>
+MIT | [MIT License](http://www.opensource.org/licenses/mit-license.php) | org.webjars # ace # 1.1.3 | <notextile></notextile>
+MIT | [MIT License](https://github.com/jquery/jquery/blob/master/MIT-LICENSE.txt) | org.webjars # jquery # 2.0.3 | <notextile></notextile>
+MIT | [MIT License](http://www.opensource.org/licenses/mit-license.php) | org.webjars # knockout # 3.0.0 | <notextile></notextile>
+MIT | [MIT-style](http://www.opensource.org/licenses/mit-license.php) | org.specs2 # specs2-analysis_2.11 # 2.3.12 | <notextile></notextile>
+MIT | [MIT-style](http://www.opensource.org/licenses/mit-license.php) | org.specs2 # specs2-common_2.11 # 2.3.12 | <notextile></notextile>
+MIT | [MIT-style](http://www.opensource.org/licenses/mit-license.php) | org.specs2 # specs2-core_2.11 # 2.3.12 | <notextile></notextile>
+MIT | [MIT-style](http://www.opensource.org/licenses/mit-license.php) | org.specs2 # specs2-junit_2.11 # 2.3.12 | <notextile></notextile>
+MIT | [MIT-style](http://www.opensource.org/licenses/mit-license.php) | org.specs2 # specs2-matcher-extra_2.11 # 2.3.12 | <notextile></notextile>
+MIT | [MIT-style](http://www.opensource.org/licenses/mit-license.php) | org.specs2 # specs2-matcher_2.11 # 2.3.12 | <notextile></notextile>
+MIT | [MIT-style](http://www.opensource.org/licenses/mit-license.php) | org.specs2 # specs2-mock_2.11 # 2.3.12 | <notextile></notextile>
+MIT | [The "New" BSD License or MIT License](https://github.com/jrburke/requirejs/blob/master/LICENSE) | org.webjars # requirejs # 2.1.11 | <notextile></notextile>
+MIT | [The MIT License](http://code.google.com/p/mockito/wiki/License) | org.mockito # mockito-core # 1.9.5 | <notextile></notextile>
+Mozilla | [MPL 1.1](http://www.mozilla.org/MPL/MPL-1.1.html) | org.javassist # javassist # 3.18.2-GA | <notextile></notextile>
+Mozilla | [Mozilla Public License version 2.0](http://www.mozilla.org/MPL/2.0/) | net.sourceforge.htmlunit # htmlunit-core-js # 2.13 | <notextile></notextile>
+Public Domain | [Public Domain](null) | org.tukaani # xz # 1.0 | <notextile></notextile>
+Sun/Oracle | [CDDL](https://glassfish.dev.java.net/nonav/public/CDDL+GPL.html) | javax.transaction # jta # 1.1 | <notextile></notextile>
+W3C | [The W3C License](http://www.w3.org/TR/2004/REC-DOM-Level-3-Core-20040407/java-binding.zip) | xml-apis # xml-apis # 1.4.01 | <notextile></notextile>
+W3C | [The W3C Software License](http://www.w3.org/Consortium/Legal/copyright-software-19980720) | org.w3c.css # sac # 1.3 | <notextile></notextile>
+WTFPL | [WTFPL](http://www.wtfpl.net/) | org.reflections # reflections # 0.9.8 | <notextile></notextile>
+none specified | []() | com.typesafe.trace # protocol-protobuf25 # 0.1.3 | <notextile></notextile>
+none specified | []() | com.typesafe.trace # trace-collect211 # 0.1.3 | <notextile></notextile>
+none specified | []() | com.typesafe.trace # trace-event-protobuf25_2.11 # 0.1.3 | <notextile></notextile>
+
