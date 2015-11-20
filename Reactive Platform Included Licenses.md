@@ -21,8 +21,8 @@ Apache | [Apache 2](http://www.apache.org/licenses/LICENSE-2.0.txt) | org.fluent
 Apache | [Apache 2](http://www.apache.org/licenses/LICENSE-2.0.txt) | org.joda # joda-convert # 1.7 | <notextile></notextile>
 Apache | [Apache 2](http://www.apache.org/licenses/LICENSE-2.0.txt) | org.parboiled # parboiled-core # 1.1.6 | <notextile></notextile>
 Apache | [Apache 2](http://www.apache.org/licenses/LICENSE-2.0.txt) | org.parboiled # parboiled-scala_2.11 # 1.1.6 | <notextile></notextile>
-Apache | [Apache License](https://github.com/json4s/json4s/blob/master/LICENSE) | org.json4s # json4s-ast_2.11 # 3.2.10 | <notextile></notextile>
-Apache | [Apache License](https://github.com/json4s/json4s/blob/master/LICENSE) | org.json4s # json4s-core_2.11 # 3.2.10 | <notextile></notextile>
+Apache | [Apache License](http://github.com/json4s/json4s/raw/HEAD/LICENSE) | org.json4s # json4s-ast_2.11 # 3.2.10 | <notextile></notextile>
+Apache | [Apache License](http://github.com/json4s/json4s/raw/HEAD/LICENSE) | org.json4s # json4s-core_2.11 # 3.2.10 | <notextile></notextile>
 Apache | [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.ning # async-http-client # 1.8.15 | <notextile></notextile>
 Apache | [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.ning # async-http-client # 1.9.21 | <notextile></notextile>
 Apache | [Apache License Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | org.yaml # snakeyaml # 1.15 | <notextile></notextile>
@@ -185,12 +185,12 @@ ISC | [ISC](https://raw.githubusercontent.com/piranha/keymage/master/LICENSE) | 
 MIT | [MIT](http://opensource.org/licenses/MIT) | org.scalaz.stream # scalaz-stream_2.11 # 0.7a | <notextile></notextile>
 MIT | [MIT](http://opensource.org/licenses/MIT) | org.spire-math # jawn-parser_2.11 # 0.6.0 | <notextile></notextile>
 MIT | [MIT](http://opensource.org/licenses/MIT) | org.spire-math # json4s-support_2.11 # 0.6.0 | <notextile></notextile>
-MIT | [MIT License](http://objenesis.googlecode.com/svn/docs/license.html) | org.objenesis # objenesis # 1.0 | <notextile></notextile>
+MIT | [MIT License](http://www.opensource.org/licenses/mit-license.php) | org.objenesis # objenesis # 1.0 | <notextile></notextile>
 MIT | [MIT License](http://slf4j.org/license.html) | org.slf4j # jcl-over-slf4j # 1.7.12 | <notextile></notextile>
 MIT | [MIT License](http://slf4j.org/license.html) | org.slf4j # jul-to-slf4j # 1.7.12 | <notextile></notextile>
 MIT | [MIT License](http://slf4j.org/license.html) | org.slf4j # slf4j-api # 1.7.12 | <notextile></notextile>
 MIT | [MIT License](http://www.opensource.org/licenses/mit-license.php) | org.webjars # ace # 1.1.7-1 | <notextile></notextile>
-MIT | [MIT License](https://github.com/jquery/jquery/blob/master/MIT-LICENSE.txt) | org.webjars # jquery # 2.0.3 | <notextile></notextile>
+MIT | [MIT License](http://www.opensource.org/licenses/mit-license.php) | org.webjars # jquery # 2.0.3 | <notextile></notextile>
 MIT | [MIT License](http://www.opensource.org/licenses/mit-license.php) | org.webjars # knockout # 3.3.0 | <notextile></notextile>
 MIT | [MIT-style](http://www.opensource.org/licenses/mit-license.php) | org.specs2 # specs2-common_2.11 # 3.6 | <notextile></notextile>
 MIT | [MIT-style](http://www.opensource.org/licenses/mit-license.php) | org.specs2 # specs2-core_2.11 # 3.6 | <notextile></notextile>
