@@ -201,8 +201,8 @@ MIT | [The "New" BSD License or MIT License](https://github.com/jrburke/requirej
 MIT | [The MIT License](http://code.google.com/p/mockito/wiki/License) | org.mockito # mockito-core # 1.9.5 | <notextile></notextile>
 Mozilla | [MPL 1.1](http://www.mozilla.org/MPL/MPL-1.1.html) | org.javassist # javassist # 3.19.0-GA | <notextile></notextile>
 Mozilla | [Mozilla Public License version 2.0](http://www.mozilla.org/MPL/2.0/) | net.sourceforge.htmlunit # htmlunit-core-js # 2.15 | <notextile></notextile>
-Public Domain | [Public Domain](null) | aopalliance # aopalliance # 1.0 | <notextile></notextile>
-Public Domain | [Public Domain](null) | org.tukaani # xz # 1.0 | <notextile></notextile>
+Public Domain | Public Domain | aopalliance # aopalliance # 1.0 | <notextile></notextile>
+Public Domain | Public Domain | org.tukaani # xz # 1.0 | <notextile></notextile>
 Sun/Oracle | [CDDL](https://glassfish.dev.java.net/nonav/public/CDDL+GPL.html) | javax.transaction # jta # 1.1 | <notextile></notextile>
 W3C | [The W3C License](http://www.w3.org/TR/2004/REC-DOM-Level-3-Core-20040407/java-binding.zip) | xml-apis # xml-apis # 1.4.01 | <notextile></notextile>
 W3C | [The W3C Software License](http://www.w3.org/Consortium/Legal/copyright-software-19980720) | org.w3c.css # sac # 1.3 | <notextile></notextile>
