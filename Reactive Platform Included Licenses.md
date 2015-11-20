@@ -4,7 +4,7 @@ In the event of accidental omission, please bring it to our attention by sending
 
 The attached notices are provided for information only.
 
- Revision 1.9 generated on October 1, 2015.  Includes Scala 2.11.7, Akka 2.3.12, Play 2.4.2, Slick 3.0.1 and Activator 1.3.6.
+ Revision 1.10 generated on November 19, 2015.  Includes Scala 2.11.7, Akka 2.3.12, Play 2.4.4, Slick 3.0.1 and Activator 1.3.6.
 
 
 Category | License | Dependency | Notes
@@ -42,27 +42,27 @@ Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.
 Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.typesafe.activator # activator-ui # 1.3.6 | <notextile></notextile>
 Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.typesafe.activator # activator-ui-common # 1.3.6 | <notextile></notextile>
 Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.typesafe.activator # analytics_2.11 # 0.1.8 | <notextile></notextile>
-Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.typesafe.play # build-link # 2.4.2 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.typesafe.play # build-link # 2.4.4 | <notextile></notextile>
 Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.typesafe.play # filters-helpers_2.11 # 2.3.9 | <notextile></notextile>
-Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.typesafe.play # filters-helpers_2.11 # 2.4.2 | <notextile></notextile>
-Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.typesafe.play # play-akka-http-server-experimental_2.11 # 2.4.2 | <notextile></notextile>
-Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.typesafe.play # play-datacommons_2.11 # 2.4.2 | <notextile></notextile>
-Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.typesafe.play # play-exceptions # 2.4.2 | <notextile></notextile>
-Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.typesafe.play # play-functional_2.11 # 2.4.2 | <notextile></notextile>
-Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.typesafe.play # play-integration-test_2.11 # 2.4.2 | <notextile></notextile>
-Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.typesafe.play # play-iteratees_2.11 # 2.4.2 | <notextile></notextile>
-Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.typesafe.play # play-java-ws_2.11 # 2.4.2 | <notextile></notextile>
-Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.typesafe.play # play-java_2.11 # 2.4.2 | <notextile></notextile>
-Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.typesafe.play # play-json_2.11 # 2.4.2 | <notextile></notextile>
-Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.typesafe.play # play-netty-server_2.11 # 2.4.2 | <notextile></notextile>
-Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.typesafe.play # play-netty-utils # 2.4.2 | <notextile></notextile>
-Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.typesafe.play # play-server_2.11 # 2.4.2 | <notextile></notextile>
-Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.typesafe.play # play-specs2_2.11 # 2.4.2 | <notextile></notextile>
-Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.typesafe.play # play-streams-experimental_2.11 # 2.4.2 | <notextile></notextile>
-Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.typesafe.play # play-test_2.11 # 2.4.2 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.typesafe.play # filters-helpers_2.11 # 2.4.4 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.typesafe.play # play-akka-http-server-experimental_2.11 # 2.4.4 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.typesafe.play # play-datacommons_2.11 # 2.4.4 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.typesafe.play # play-exceptions # 2.4.4 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.typesafe.play # play-functional_2.11 # 2.4.4 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.typesafe.play # play-integration-test_2.11 # 2.4.4 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.typesafe.play # play-iteratees_2.11 # 2.4.4 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.typesafe.play # play-java-ws_2.11 # 2.4.4 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.typesafe.play # play-java_2.11 # 2.4.4 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.typesafe.play # play-json_2.11 # 2.4.4 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.typesafe.play # play-netty-server_2.11 # 2.4.4 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.typesafe.play # play-netty-utils # 2.4.4 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.typesafe.play # play-server_2.11 # 2.4.4 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.typesafe.play # play-specs2_2.11 # 2.4.4 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.typesafe.play # play-streams-experimental_2.11 # 2.4.4 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.typesafe.play # play-test_2.11 # 2.4.4 | <notextile></notextile>
 Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.typesafe.play # play-ws_2.11 # 2.3.9 | <notextile></notextile>
-Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.typesafe.play # play-ws_2.11 # 2.4.2 | <notextile></notextile>
-Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.typesafe.play # play_2.11 # 2.4.2 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.typesafe.play # play-ws_2.11 # 2.4.4 | <notextile></notextile>
+Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.typesafe.play # play_2.11 # 2.4.4 | <notextile></notextile>
 Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.typesafe.play # twirl-api_2.11 # 1.1.1 | <notextile></notextile>
 Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.typesafe.sbtrc # client-2-11 # 0.3.5 | <notextile></notextile>
 Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.typesafe.sbtrc # integration-tests # 0.3.5 | <notextile></notextile>
@@ -119,27 +119,27 @@ Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.
 Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | xalan # xalan # 2.7.1 | <notextile></notextile>
 Apache | [Apache License, Version 2.0](http://aws.amazon.com/apache2.0) | com.amazonaws # aws-java-sdk # 1.3.29 | <notextile></notextile>
 Apache | [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) | com.typesafe # config # 1.3.0 | <notextile></notextile>
-Apache | [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) | com.typesafe.akka # akka-actor_2.11 # 2.3.12 | <notextile></notextile>
+Apache | [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) | com.typesafe.akka # akka-actor_2.11 # 2.3.13 | <notextile></notextile>
 Apache | [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) | com.typesafe.akka # akka-agent_2.11 # 2.3.12 | <notextile></notextile>
 Apache | [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) | com.typesafe.akka # akka-camel_2.11 # 2.3.12 | <notextile></notextile>
 Apache | [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) | com.typesafe.akka # akka-cluster_2.11 # 2.3.12 | <notextile></notextile>
 Apache | [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) | com.typesafe.akka # akka-dataflow_2.11 # 2.3.12 | <notextile></notextile>
 Apache | [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) | com.typesafe.akka # akka-file-mailbox_2.11 # 2.3.12 | <notextile></notextile>
-Apache | [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) | com.typesafe.akka # akka-http-core-experimental_2.11 # 1.0-RC2 | <notextile></notextile>
+Apache | [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) | com.typesafe.akka # akka-http-core-experimental_2.11 # 1.0 | <notextile></notextile>
 Apache | [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) | com.typesafe.akka # akka-kernel_2.11 # 2.3.12 | <notextile></notextile>
 Apache | [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) | com.typesafe.akka # akka-mailboxes-common_2.11 # 2.3.12 | <notextile></notextile>
 Apache | [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) | com.typesafe.akka # akka-multi-node-testkit_2.11 # 2.3.12 | <notextile></notextile>
 Apache | [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) | com.typesafe.akka # akka-osgi_2.11 # 2.3.12 | <notextile></notextile>
-Apache | [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) | com.typesafe.akka # akka-parsing-experimental_2.11 # 1.0-RC2 | <notextile></notextile>
+Apache | [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) | com.typesafe.akka # akka-parsing-experimental_2.11 # 1.0 | <notextile></notextile>
 Apache | [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) | com.typesafe.akka # akka-remote-tests_2.11 # 2.3.12 | <notextile></notextile>
 Apache | [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) | com.typesafe.akka # akka-remote_2.11 # 2.3.12 | <notextile></notextile>
-Apache | [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) | com.typesafe.akka # akka-slf4j_2.11 # 2.3.12 | <notextile></notextile>
-Apache | [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) | com.typesafe.akka # akka-stream-experimental_2.11 # 1.0-RC2 | <notextile></notextile>
+Apache | [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) | com.typesafe.akka # akka-slf4j_2.11 # 2.3.13 | <notextile></notextile>
+Apache | [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) | com.typesafe.akka # akka-stream-experimental_2.11 # 1.0 | <notextile></notextile>
 Apache | [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) | com.typesafe.akka # akka-testkit_2.11 # 2.3.12 | <notextile></notextile>
 Apache | [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) | com.typesafe.akka # akka-transactor_2.11 # 2.3.12 | <notextile></notextile>
-Apache | [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) | io.netty # netty # 3.10.3.Final | <notextile></notextile>
+Apache | [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) | io.netty # netty # 3.10.4.Final | <notextile></notextile>
 Apache | [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0) | io.netty # netty # 3.9.2.Final | <notextile></notextile>
-Apache | [Apache License, Version 2.0](http://apache.org/licenses/LICENSE-2.0) | net.jodah # typetools # 0.4.1 | <notextile></notextile>
+Apache | [Apache License, Version 2.0](http://apache.org/licenses/LICENSE-2.0) | net.jodah # typetools # 0.4.3 | <notextile></notextile>
 Apache | [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.txt) | net.sourceforge.htmlunit # htmlunit # 2.15 | <notextile></notextile>
 Apache | [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | org.uncommons.maths # uncommons-maths # 1.2.2a | <notextile></notextile>
 Apache | [Apache License, version 2.0](http://www.apache.org/licenses/LICENSE-2.0.txt) | org.jboss.logging # jboss-logging # 3.2.1.Final | <notextile>Core dependency of the Play core libraries that must be included with every Scala or Java project.</notextile>
