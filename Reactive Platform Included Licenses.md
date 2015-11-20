@@ -25,7 +25,7 @@ Apache | [Apache License](https://github.com/json4s/json4s/blob/master/LICENSE) 
 Apache | [Apache License](https://github.com/json4s/json4s/blob/master/LICENSE) | org.json4s # json4s-core_2.11 # 3.2.10 | <notextile></notextile>
 Apache | [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.ning # async-http-client # 1.8.15 | <notextile></notextile>
 Apache | [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.ning # async-http-client # 1.9.21 | <notextile></notextile>
-Apache | [Apache License Version 2.0](LICENSE.txt) | org.yaml # snakeyaml # 1.15 | <notextile></notextile>
+Apache | [Apache License Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | org.yaml # snakeyaml # 1.15 | <notextile></notextile>
 Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | cglib # cglib-nodep # 2.1_3 | <notextile></notextile>
 Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.fasterxml.jackson.core # jackson-annotations # 2.5.4 | <notextile></notextile>
 Apache | [Apache License, Verison 2.0](http://www.apache.org/licenses/LICENSE-2.0.html) | com.fasterxml.jackson.core # jackson-core # 2.5.4 | <notextile></notextile>
