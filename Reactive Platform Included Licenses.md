@@ -2,7 +2,16 @@ Typesafe software uses third-party libraries or other resources that may be dist
 
 In the event of accidental omission, please bring it to our attention by sending email to Hywel Evans at the following address: hywel.evans@typesafe.com
 
-The attached notices are provided for information only.
+The attached notices are provided for information only.  Note that the following libraries do not correctly list the locations of their license file and have been manually corrrected on a best-effort basis only:
+
+		org.objenesis # objenesis # 1.0
+		org.javassist # javassist # 3.19.0-GA
+		org.webjars # jquery # 2.0.3
+		org.json4s # json4s-ast_2.11 # 3.2.10
+		org.json4s # json4s-core_2.11 # 3.2.10
+		org.yaml # snakeyaml # 1.15
+		aopalliance # aopalliance # 1.0
+		org.tukaani # xz # 1.0
 
  Revision 1.10 generated on November 19, 2015.  Includes Scala 2.11.7, Akka 2.3.12, Play 2.4.4, Slick 3.0.1 and Activator 1.3.6.
 
