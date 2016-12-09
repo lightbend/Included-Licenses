@@ -1,6 +1,6 @@
 Lightbend software uses third-party libraries or other resources that may be distributed under licenses different than the Lightbend Commercial License.
 
-In the event of accidental omission, please bring it to our attention by sending email to [Hywel Evans](hywel.evans@lightbend.com).
+In the event of accidental omission, please bring it to our attention by sending email to [Licenses](licenses@lightbend.com).
 
 Revision 1.11 generated on June 28, 2016.  Based on Reactive Platform version 16s01p07.
 
