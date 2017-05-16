@@ -6,7 +6,7 @@ Revision 1.11 generated on June 28, 2016.  Based on Reactive Platform version 16
 
 
 Dependency | Category | License |
---- | --- | --- | ---
+--- | --- | --- | 
 akka-actor_2.11-2.4-bin-rp-16s01p05.jar | Reactive Platform | Apache 2.0 | 
 akka-actor_2.11-2.4-bin-rp-16s01p07.jar | Reactive Platform | Apache 2.0 | 
 akka-agent_2.11-2.4-bin-rp-16s01p07.jar | Reactive Platform | Apache 2.0 | 
