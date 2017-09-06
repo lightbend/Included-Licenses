@@ -1,6 +1,6 @@
 Lightbend software uses third-party libraries or other resources that may be distributed under licenses different than the Lightbend Commercial License.
 
-In the event of accidental omission, please bring it to our attention by sending email to [Licenses](licenses@lightbend.com).
+In the event of accidental omission, please bring it to our attention by sending email to <mailto:licenses@lightbend.com>.
   
 Revision 2.0 generated on September 5, 2017 based on the following projects:
 
