@@ -2,7 +2,7 @@ Lightbend software uses third-party libraries or other resources that may be dis
 
 In the event of accidental omission, please bring it to our attention by sending email to <mailto:licenses@lightbend.com>.
   
-Revision 2.1 generated on February 8, 2018 based on the following projects:
+Revision 2.2 revised on February 26, 2018 based on the following projects:
 
 ## Lightbend Reactive Platform
 
