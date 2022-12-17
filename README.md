@@ -1,4 +1,4 @@
-** Lightbend Akka Platform **
+# Lightbend Akka Platform
 									
 Lightbend software uses third-party libraries or other resources that may be distributed under licenses different than the Lightbend Commercial License.									
 									
