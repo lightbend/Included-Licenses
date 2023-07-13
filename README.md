@@ -4,7 +4,7 @@ Lightbend software uses third-party libraries or other resources that may be dis
 									
 In the event of accidental omission, please bring it to our attention by sending email to licenses@lightbend.com									
 									
-Document version 2.10 revised on December 16, 2022 based on the following projects only:				
+Document version 3 revised on July 13, 2023 based on the following projects only:				
 
 * Akka 2.8.x
 * Akka Diagnostics 2.0.x
